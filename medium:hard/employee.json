@@ -1,0 +1,74 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Jaquelin Lara",
+            "salary": 50000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 2,
+            "name": "Cesar Bautista",
+            "salary": 75000,
+            "department": "Back End Associate"
+
+        }, 
+        {
+            "id": 3,
+            "name": "Adrian Lara",
+            "salary": 55000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 4,
+            "name": "David Lara",
+            "salary": 60000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 5,
+            "name": "Matthew Lara",
+            "salary": 65000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 6,
+            "name": "Alejandra Lara",
+            "salary": 70000,
+            "department": "Back End Associate"
+
+        }, 
+        {
+            "id": 7,
+            "name": "Catalino Lara",
+            "salary": 75000,
+            "department": "Back End Associate"
+
+        }, 
+        {
+            "id": 8,
+            "name": "Emily Lara",
+            "salary": 55000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 9,
+            "name": "Esbadey Lara",
+            "salary": 60000,
+            "department": "Front End Associate"
+
+        }, 
+        {
+            "id": 10,
+            "name": "Marth Lara",
+            "salary": 65000,
+            "department": "Back End Associate"
+
+        }
+    ]
+}

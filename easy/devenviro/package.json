@@ -1,0 +1,15 @@
+{
+  "name": "devenviro",
+  "version": "1.2.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "url": "git+https://github.com/Jacklara/node-week2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
