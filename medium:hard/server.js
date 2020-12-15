@@ -1,6 +1,7 @@
 var express = require('express'); //declare variable 
 var app = express();
 var data =  require('./employee.json');
+app.use(express.json())
 
 app.get('/employee', (req, res) => {
     //if no data return 
@@ -23,19 +24,18 @@ app.get('/employee/:id', (req, res) => {
 });
 
 app.post('/employee', (req, res) => {
-
     const findEmployee = {
         id: data.employees.length + 1,
         name: req.body.name,
         salary: req.body.salary,
         department: req.body.department
-    }
-
-    data.employees.push(findEmployee)
+    };
 
     if(!findEmployee) {
         res.status(404).send('Could not find information')
     };
+
+    data.employees.push(findEmployee)
 
     res.send(findEmployee)
 
@@ -51,7 +51,7 @@ app.put('/employee/:id', (req, res) => {
          res.status(404).send('Could not find information')
      };
 
-    
+    findEmployee.name = req.body.name;
 
      res.send(findEmployee);
 });
